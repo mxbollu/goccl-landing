@@ -6,7 +6,8 @@ Static landing page for the early `goccl.org` launch.
 
 - GitHub: `https://github.com/mxbollu/goccl-landing`
 - Cloudflare Pages project: `goccl-landing`
-- Production URL: `https://goccl-landing.pages.dev`
+- Custom domain: `https://goccl.org`
+- Cloudflare Pages URL: `https://goccl-landing.pages.dev`
 
 ## Cloudflare Pages settings
 
@@ -18,5 +19,5 @@ Static landing page for the early `goccl.org` launch.
 For direct upload with Wrangler:
 
 ```bash
-wrangler pages deploy landing --project-name goccl
+wrangler pages deploy landing --project-name goccl-landing
 ```
