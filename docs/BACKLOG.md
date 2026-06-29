@@ -1,7 +1,8 @@
 # Cric Champs League — MVP Backlog
 
 ## Epic 1 — Project setup
-- [ ] Deploy static landing page to Cloudflare Pages or Vercel and point `goccl.org` DNS.
+- [x] Deploy static landing page to Cloudflare Pages. Note: project `goccl-landing`, production URL `https://goccl-landing.pages.dev`, custom `goccl.org` attachment still pending.
+- [ ] Point `goccl.org` to the Cloudflare Pages project.
 - [ ] Scaffold Next.js TypeScript app.
 - [ ] Add Tailwind CSS.
 - [ ] Configure lint/typecheck scripts.

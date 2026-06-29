@@ -16,6 +16,8 @@ Super-admin creates official match summary → players/managers view it → comm
 - A dependency-free static landing page now exists in `landing/` for early `goccl.org` launch while the full Next.js app remains unscaffolded.
 - Native iOS later.
 - Next.js + TypeScript + Tailwind + Supabase + Vercel recommended.
+- Static landing GitHub repo: `https://github.com/mxbollu/goccl-landing`.
+- Static landing Cloudflare Pages project: `goccl-landing`, production URL `https://goccl-landing.pages.dev`.
 - Super-admin controls official match summaries in MVP.
 - CricClubs URL is the first integration point.
 - No ball-by-ball scoring.
@@ -34,13 +36,15 @@ Super-admin creates official match summary → players/managers view it → comm
 
 ## Open questions
 - Final production-ready logo asset set.
-- Exact hosting target for the static landing page and later app: Cloudflare Pages vs Vercel, plus Supabase project names.
+- Custom domain attachment for `goccl.org` on the Cloudflare Pages project.
+- Exact hosting target for the later full app: Cloudflare Pages vs Vercel, plus Supabase project names.
 - Whether to build production UI directly from Figma after page UX sessions or scaffold app first.
 
 ## Recent completed work
+- Pushed the static landing package to GitHub and deployed it to Cloudflare Pages.
 - Created a static `goccl.org` landing page in `landing/` with a full-viewport Pitch Vignette hero, centered CCL crest, and sticky magnetic Figma screen reveals for the two provided Figma nodes.
 - Created high-fidelity Figma MVP direction and selected the Pitch Vignette hero overlay direction.
 - Added UX theme/session handoff docs for future Codex page-design sessions.
 
 ## Next recommended task
-Deploy the static landing page and point `goccl.org` DNS to it, then scaffold the full Next.js MVP app when ready.
+Attach `goccl.org` to the Cloudflare Pages project, then scaffold the full Next.js MVP app when ready.
