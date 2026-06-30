@@ -240,6 +240,21 @@ main {
     linear-gradient(180deg, var(--deep-night), var(--pitch-green));
 }
 
+.screen-panel--teams {
+  background:
+    linear-gradient(180deg, var(--pitch-green), var(--midnight));
+}
+
+.screen-panel--media {
+  background:
+    linear-gradient(180deg, var(--midnight), #061f2a 48%, var(--deep-night));
+}
+
+.screen-panel--sponsors {
+  background:
+    linear-gradient(180deg, var(--deep-night), #0a2d31 48%, var(--pitch-green));
+}
+
 .screen-stage {
   position: sticky;
   top: 0;
